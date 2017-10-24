@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<!-- 
+
+The MIT License (MIT)
+
+Copyright (c) 2013-2017 Blackrock Digital LLC <- template 
+Copyright (c) 2015, Vincent Garreau <- particle.js
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. -->
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dinda Tisi Calista</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">DINDA TC</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+    <div class="cover-container">
+      <div id="particles-js" style="background">
+          <script src="js/particles/particles.js"></script>
+          <script src="js/app.js"></script>
+      </div>
+       <div class="container">
+          <div class="intro-text">        
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/dinda.jpg" alt="">
+            </div>
+            <div class="intro-heading">Tech, Data, Product</div>
+          </div> 
+        </div>
+    </div>
+
+    </header>
+
+ <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">My Projects</h2>
+            <h3 class="section-subheading text-muted">Selections of my project experience, ranging from data science, mobile, and web platform</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/3dring.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h5>3D Ring Visualization</h5>
+              <p class="text-muted">Data Viz, Leapmotion</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/mob_sdk.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h5>Midtrans Mobile SDK</h5>
+              <p class="text-muted">Android and iOS</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/predictive_promo.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h5>Targeted Promo Analytics</h5>
+              <p class="text-muted">Analytics, Web</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/sol-dash.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h5>Solutions Dashboard</h5>
+              <p class="text-muted">Analytics, Web</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/midtrans.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h5>Sherlock API</h5>
+              <p class="text-muted">Machine Learning</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/docspace.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h5>Docspace</h5>
+              <p class="text-muted">Market Research, Early Prototype</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About me</h2>
+            <h3 class="section-subheading text-muted"><u>Dinda</u> Tisi Calista</h3>
+            <p align = "left">I enjoy being at the intersection between technology and business; becoming the bridge and making ideas understandable for people in both sides. After graduating from Institut Teknologi Bandung (ITB), I worked at a leading fintech company in Indonesia, where I got the exposure to data science projects. I became excited about the future of analytics, and decided to pursue the field further by studying MSc Business Analytics at University College London.</p>
+
+            <p align = "left"> In my leisure time, I drown myself into wide array of hobbies.  I play several musical instruments, mainly piano (I love Chopin and Bach!) and guitar, as well as read books (mostly classics literature or my list on <a href = "https://www.goodreads.com/dindatc" target = "_blank"><u>Goodreads</u></a>). In addition, I used to play sports a lot. During my undergraduate years, I won table tennis silver medal in campus sport olympiad.
+            <div>
+              <a class="btn btn-med js-scroll-trigger" href="#services">See my CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Blog -->
+    <section class="bg-light" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Writing</h2>
+            <h3 class="section-subheading text-muted">Putting Perspective on Something</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="team-member">
+                <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://medium.com/@dindatc">
+                    <i class="fa fa-medium"></i>
+                  </a>
+                </li>
+              </ul>
+              <h4><a target="_blank" href="https://medium.com/@dindatc">Medium</a></h4>
+              <p class="text-muted"><i>I'll write more about data and tech here</i></p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="team-member">
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://dindatc.wordpress.com/">
+                    <i class="fa fa-wordpress"></i>
+                  </a>
+                </li>
+              </ul>
+              <h4><a target="_blank" href="https://dindatc.wordpress.com/">Wordpress</a></h4>
+              <p class="text-muted"><i>General thoughts about everyday life</i></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 class="section-heading">Contact Me</h3>
+            <h3 class="section-subheading text-muted"></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" align="center">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.linkedin.com/in/dindatc/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href ="https://github.com/dindatisi">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com/dindatisicalista">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>     
+            </ul>
+          </div>
+        </div>      
+      </div>
+ 
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Dinda Tisi Calista 2017</span>
+          </div>
+          <div class="col-md-4">
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+
+                  <!-- Project Details Go Here -->
+                  <h2>3D Ring Visualization</h2>
+                  <p align="left">An interactive visualization of Midtrans transactions ring in 3D World, this desktop app enables user to explore the 3D world by using Leapmotion. The app read the transaction data in JSON file, and then generates the network graph/ring that consist of nodes. A node can represent buyer's email, phone number, or card number. By looking at the visualization, user can point out fraudsters easily. </p>
+                  <p align="left">I was in charge of all aspects of the project throughout the project lifecycle. It started from finding the vendor, negotiating, requirements gathering, UAT, to payment and budgeting.</p>
+                  <p align="left"><b>Highlights:</b>
+                 The app was so lovable that we could amaze everyone who saw or play with it. Our CEO even decided to create an internal tournament using this app.</p>
+                  <ul class="list-inline" align="left">
+                    <li><b>Year:</b> 2017</li>
+                    <li><b>Role:</b> Project Manager</li>
+                    <li><b>Category:</b> Data Viz, Leapmotion</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Midtrans Mobile SDK</h2>
+                  <p class="item-intro text-muted"><a target="_blank" href="http://mobile-docs.midtrans.com/"><u>mobile-docs.midtrans.com</u></a></p>
+                  <p align="left">SDK to let merchants implement Midtrans Payment Gateway seamlessly in their native iOS and Android app. This SDK carries all features offered by Midtrans Payment API, as well as giving merchants the choice to implement the drop-in UI kit (for quicker integration) or the core kit (API-only implementation, for more customization). During this time, I was also in charge to help several key merchants to get the most out of our Mobile SDK.</p>
+                  <ul class="list-inline" align="left">
+                    <li><b>Highlights:</b></li>
+                    <li>- Succesfully migrated to a new backend for better integration with the new API features.</li>
+                    <li>- Played major role in onboarding and integration support of big-named merchants, such as Citilink and Ayopop.</li>
+                </ul>
+                  <ul class="list-inline" align="left">
+                    <li><b>Year:</b> 2016-2017</li>
+                    <li><b>Role:</b> Scrum Master/Project Manager</li>
+                    <li><b>Category:</b> Mobile (iOS and Android)</li>
+                  </ul>
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Targeted Promo Analytics</h2>
+                  <p align="left">This is a hackathon project, in which I worked in a team of five. This web app enables merchants and banks to effectively target specific customer segments for promotion, and design a promo that will best suit them based on the predictive model.</p>
+                  <p align="left"><b>Highlights:</b>
+                  Became the first Midtrans hackathon product to be officially offered and sold to merchants and banks</p>
+                  <ul class="list-inline" align="left">
+                    <li><b>Year:</b> 2017</li>
+                    <li><b>Role:</b> Hackathon participant (main role: Product owner and Analyst)</li>
+                    <li><b>Category:</b> Analytics</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Solutions Dashboard</h2>
+                  <p align="left">The project started as an initiative to encourage data-driven decision-making within the company. We developed a dashboard using Tableau to provide insights based on sales and marketing stats. By using this dashboard, sales team's leaders can also easily track individual and team's performance according to their KPIs.</p>
+                  <p align="left"><b>Highlights:</b>
+                  Built pipeline for data analytics collaboration with other teams, as steps toward becoming a more data-driven company.</p>
+                  <ul class="list-inline" align="left">
+                    <li><b>Year:</b> 2017</li>
+                    <li><b>Role:</b> Scrum Master</li>
+                    <li><b>Category:</b> Analytics</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 >Sherlock API</h2>
+                  <p align="left">This API contains a machine learning model to catch fraudulent transaction with >70% accuracy and ~40ms average response time, which makes it one of the most sophisticated Fraud Detection System in the country. The model provides transaction score and signal (reasons behind the score).The signal help users (fraud analysts) to better understand why the machine accepts/denies particular transactions.</p>
+                  <p align="left"><b>Highlights:</b>
+                  Before I came, the team had been working on this project for almost a year, but unable to deliver it. I managed to get the API into production in a few months by reducing the iteration cycle and introducing agile project methodology to the team.</p>
+                  <ul class="list-inline" align="left">
+                    <li><b>Year:</b> 2016-2017</li>
+                    <li><b>Role:</b> Scrum Master</li>
+                    <li><b>Category:</b> Machine Learning</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>docspace.id</h2>
+                  <p align="left">This is a collaboration between my tech consulting firm and two doctors. The idea is to create a "space" for doctors to get various job-related information, including vacancies and events. We were highly involved in the product planning and development process.</p>
+                  <p align="left"><b>Highlight:</b> Succesfully led the startup to launch the desired portal. The pitch deck we created also helped DocSpace to win best presentation award in a bootcamp.</p>
+                  <ul class="list-inline" align="left">
+                    <li><b>Year:</b> 2016</li>
+                    <li><b>Client:</b> Docspace</li>
+                    <li><b>Category:</b> Market Research, Early Prototype</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
